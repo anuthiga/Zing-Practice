@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C892F3121670566600DCE0F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C892F3111670566600DCE0F1 /* UIKit.framework */; };
+		C892F3141670566600DCE0F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C892F3131670566600DCE0F1 /* Foundation.framework */; };
+		C892F3161670566600DCE0F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C892F3151670566600DCE0F1 /* CoreGraphics.framework */; };
+		C892F31C1670566600DCE0F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C892F31A1670566600DCE0F1 /* InfoPlist.strings */; };
+		C892F31E1670566600DCE0F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C892F31D1670566600DCE0F1 /* main.m */; };
+		C892F3221670566600DCE0F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C892F3211670566600DCE0F1 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C892F30D1670566600DCE0F1 /* Zing_Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zing_Mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C892F3111670566600DCE0F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C892F3131670566600DCE0F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C892F3151670566600DCE0F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C892F3191670566600DCE0F1 /* Zing_Mobile-Info.plist */ = {isa = PBXFileReference; path = "Zing_Mobile-Info.plist"; sourceTree = "<group>"; };
+		C892F31B1670566600DCE0F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C892F31D1670566600DCE0F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C892F31F1670566600DCE0F1 /* Zing_Mobile-Prefix.pch */ = {isa = PBXFileReference; path = "Zing_Mobile-Prefix.pch"; sourceTree = "<group>"; };
+		C892F3201670566600DCE0F1 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C892F3211670566600DCE0F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C892F30A1670566600DCE0F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C892F3121670566600DCE0F1 /* UIKit.framework in Frameworks */,
+				C892F3141670566600DCE0F1 /* Foundation.framework in Frameworks */,
+				C892F3161670566600DCE0F1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C892F3021670566600DCE0F1 = {
+			isa = PBXGroup;
+			children = (
+				C892F3171670566600DCE0F1 /* Zing_Mobile */,
+				C892F3101670566600DCE0F1 /* Frameworks */,
+				C892F30E1670566600DCE0F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C892F30E1670566600DCE0F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C892F30D1670566600DCE0F1 /* Zing_Mobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C892F3101670566600DCE0F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C892F3111670566600DCE0F1 /* UIKit.framework */,
+				C892F3131670566600DCE0F1 /* Foundation.framework */,
+				C892F3151670566600DCE0F1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C892F3171670566600DCE0F1 /* Zing_Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				C892F3201670566600DCE0F1 /* AppDelegate.h */,
+				C892F3211670566600DCE0F1 /* AppDelegate.m */,
+				C892F3181670566600DCE0F1 /* Supporting Files */,
+			);
+			path = Zing_Mobile;
+			sourceTree = "<group>";
+		};
+		C892F3181670566600DCE0F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C892F3191670566600DCE0F1 /* Zing_Mobile-Info.plist */,
+				C892F31A1670566600DCE0F1 /* InfoPlist.strings */,
+				C892F31D1670566600DCE0F1 /* main.m */,
+				C892F31F1670566600DCE0F1 /* Zing_Mobile-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C892F30C1670566600DCE0F1 /* Zing_Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C892F3251670566600DCE0F1 /* Build configuration list for PBXNativeTarget "Zing_Mobile" */;
+			buildPhases = (
+				C892F3091670566600DCE0F1 /* Sources */,
+				C892F30A1670566600DCE0F1 /* Frameworks */,
+				C892F30B1670566600DCE0F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zing_Mobile;
+			productName = Zing_Mobile;
+			productReference = C892F30D1670566600DCE0F1 /* Zing_Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C892F3041670566600DCE0F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C892F3071670566600DCE0F1 /* Build configuration list for PBXProject "Zing_Mobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C892F3021670566600DCE0F1;
+			productRefGroup = C892F30E1670566600DCE0F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C892F30C1670566600DCE0F1 /* Zing_Mobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C892F30B1670566600DCE0F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C892F31C1670566600DCE0F1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C892F3091670566600DCE0F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C892F31E1670566600DCE0F1 /* main.m in Sources */,
+				C892F3221670566600DCE0F1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C892F31A1670566600DCE0F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C892F31B1670566600DCE0F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C892F3231670566600DCE0F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C892F3241670566600DCE0F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C892F3261670566600DCE0F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zing_Mobile/Zing_Mobile-Prefix.pch";
+				INFOPLIST_FILE = "Zing_Mobile/Zing_Mobile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C892F3271670566600DCE0F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zing_Mobile/Zing_Mobile-Prefix.pch";
+				INFOPLIST_FILE = "Zing_Mobile/Zing_Mobile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C892F3071670566600DCE0F1 /* Build configuration list for PBXProject "Zing_Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C892F3231670566600DCE0F1 /* Debug */,
+				C892F3241670566600DCE0F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C892F3251670566600DCE0F1 /* Build configuration list for PBXNativeTarget "Zing_Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C892F3261670566600DCE0F1 /* Debug */,
+				C892F3271670566600DCE0F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C892F3041670566600DCE0F1 /* Project object */;
+}
