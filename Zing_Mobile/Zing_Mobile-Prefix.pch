@@ -11,4 +11,10 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import "CommonCrypto/CommonDigest.h"
+    #import "ASIHTTPRequest.h"
+    #import "ASIFormDataRequest.h"
+    #import "JSON.h"
+    #import "connection.h"
+    #import "NSDate+NSDateCategory.h"
 #endif

@@ -7,16 +7,20 @@
 //
 
 #import "AppDelegate.h"
+#import "ZINGLogin.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
+@synthesize login;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.login = [[ZINGLogin alloc] initWithNibName:@"LoginView" bundle:[NSBundle mainBundle]]; 
+    UINavigationController *navController = [[[UINavigationController alloc] initWithRootViewController:self.login] autorelease];
+    self.window.rootViewController = navController;  
     [self.window makeKeyAndVisible];
     return YES;
 }
